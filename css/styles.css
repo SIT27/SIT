@@ -1,12 +1,20 @@
 /* Importing a Google Font */
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
 
 /* Changing the main font and background colour */
 
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: Fredoka, "Gill Sans";
+	background-color: #FFFCF3;
+}
+
+/* Changing the font for the titles */
+
+h1 {
+	font-family: Sigmar,
 }
 
 /* Changing the background colour for the header */
@@ -18,7 +26,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #c5e0ef;
+	background-color: #FFFCF3;
 }
 
 /* Effect on social media buttons */
@@ -41,4 +49,9 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.btn-secondary {
+    background-color: #C5E0EF; /* Change button color */
+    border-color: #C5E0EF;
 }
