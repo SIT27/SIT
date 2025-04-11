@@ -1651,7 +1651,7 @@ h1,h3 {
 		}
 
 	a {
-		color: #25a2c3;
+		color: #C5E0EF;
 		text-decoration: underline;
 	}
 
@@ -1672,12 +1672,7 @@ h1,h3 {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #727a82;
-		font-weight: 700;
-		font-family: "Montserrat", sans-serif;
-		line-height: 1.5;
-		margin: 0 0 1em 0;
+	
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1743,22 +1738,7 @@ h1,h3 {
 		margin: 0 0 2em 0;
 	}
 
-	code {
-		background: rgba(144, 144, 144, 0.075);
-		border-radius: 4px;
-		border: solid 1px #dee1e3;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0.25em;
-		padding: 0.25em 0.65em;
-	}
 
-	pre {
-		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
-		font-size: 0.9em;
-		margin: 0 0 2em 0;
-	}
 
 		pre code {
 			display: block;
@@ -1883,15 +1863,6 @@ h1,h3 {
 		position: relative;
 	}
 
-		.select-wrapper:before {
-			content: "";
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
 
 		.select-wrapper:before {
 			color: #dee1e3;
@@ -1949,15 +1920,6 @@ h1,h3 {
 			position: relative;
 		}
 
-			input[type="checkbox"] + label:before,
-			input[type="radio"] + label:before {
-				-moz-osx-font-smoothing: grayscale;
-				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
-				font-style: normal;
-				font-weight: normal;
-				text-transform: none !important;
-			}
 
 			input[type="checkbox"] + label:before,
 			input[type="radio"] + label:before {
@@ -2058,15 +2020,6 @@ h1,h3 {
 		border-bottom: none;
 		position: relative;
 	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
-			font-style: normal;
-			font-weight: normal;
-			text-transform: none !important;
-		}
 
 		.icon > .label {
 			display: none;
@@ -2384,13 +2337,12 @@ h1,h3 {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #f6755e;
+		background-color: #FF752B;
 		border-radius: 4px;
 		border: 0;
 		color: #ffffff;
 		cursor: pointer;
 		display: inline-block;
-		font-family: "Montserrat", sans-serif;
 		height: 3.5em;
 		line-height: 3.5em;
 		padding: 0 3.5em;
@@ -2405,7 +2357,7 @@ h1,h3 {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #f78a76;
+			background-color: #CDD53E;
 		}
 
 		input[type="submit"]:active,
@@ -2413,7 +2365,7 @@ h1,h3 {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #f56046;
+			background-color: #FF752B;
 		}
 
 		input[type="submit"].icon,
@@ -2614,11 +2566,11 @@ h1,h3 {
 	}
 
 		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
-			color: #25a2c3;
+			color: #2F5CDA;
 		}
 
 		.wrapper.style1 {
-			background: #f6755e;
+			background: #C5E0EF;
 			color: #fcdcd6;
 		}
 
@@ -2649,8 +2601,8 @@ h1,h3 {
 /* Header */
 
 	body {
-		padding-top: 0em;
-	}
+		padding-top: 150px; /* Adjust based on how tall your navbar is */
+}
 
 	/* Changing the background colour for the header */
 
@@ -2658,10 +2610,11 @@ header {
 	background-color: #000060;
 }
 
-/* Changing the background color for the navigation bar */
+/* Changing the background color for the navigation bar and adding a shadow */
 
 .navbar {
-	background-color: #FFFCF3;
+  background-color: #FFFCF3;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* Effect on social media buttons */
@@ -2673,7 +2626,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #CDD53E;
 	font-weight: bold;
 }
 
@@ -2681,13 +2634,18 @@ footer a:hover {
 /* Banner */
 
 	#banner {
-		padding: 8em 0 6em 0;
-		background-image: url("images/dogs/anna-dudkova-urs_y9NwFcc-unsplash.jpg");
+		padding: 26em 0 6em 0;
+		background-image: url('.../images/dogs/anna-dudkova-urs_y9NwFcc-unsplash.jpg');
 		background-size: cover;
 		background-position: center top;
 		background-repeat: no-repeat;
 		text-align: center;
-	}
+}
+
+	#banner .text-block {
+ 		margin-bottom: 2rem; /* Moves text up */
+}
+
 
 		#banner .content {
 			-moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;
@@ -2695,11 +2653,12 @@ footer a:hover {
 			-ms-transition: opacity 1s ease-in-out, -ms-transform 0.75s ease-in-out;
 			transition: opacity 1s ease-in-out, transform 0.75s ease-in-out;
 			opacity: 1;
+			margin-top: -24em;
 		}
 
 		#banner h1 {
 			font-size: 3em;
-			color: #25a2c3;
+			color: #2F5CDA;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
@@ -2898,21 +2857,21 @@ footer a:hover {
 
 	#footer {
 		padding: 6em 0 4em 0;
-		background: #25a2c3;
+		background: #CDD53E;
 		text-align: center;
-		color: #c8e7f0;
+		color: #FFFCF3;
 	}
 
 		#footer h2 {
-			color: #fff;
+			color: #FFFCF3;
 		}
 
 		#footer .icon {
-			color: #f6755e;
+			color: #FF752B;
 		}
 
 		#footer a {
-			color: #c8e7f0;
+			color: #FFFCF3;
 			text-decoration: none;
 		}
 
@@ -2931,7 +2890,7 @@ footer a:hover {
 			padding: 2em 10em;
 		}
 .copyright {
-	background: #25a2c3;
+	background: #CDD53E;
 	display: inline-block;
 	color: white;
 	font-size: 0.75em;
