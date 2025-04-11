@@ -1672,7 +1672,12 @@ h1,h3 {
 		margin: 0 0 2em 0;
 	}
 
-	
+	h1, h2, h3, h4, h5, h6 {
+		color: #2F5CDA;
+		font-weight: 700;
+		font-family: "Montserrat", sans-serif;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1776,7 +1781,7 @@ h1,h3 {
 	}
 
 	header p {
-		color: #00000;
+		color: #FFFFFF;
 		margin: 0 0 1.5em 0;
 	}
 
@@ -2504,13 +2509,8 @@ h1,h3 {
 		-ms-flex-wrap: nowrap;
 		-ms-flex-pack: justify;
 		-ms-flex-align: stretch;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
 		-moz-flex-wrap: nowrap;
 		-webkit-flex-wrap: nowrap;
-		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -2541,7 +2541,6 @@ h1,h3 {
 				-ms-flex-wrap: wrap;
 				-moz-flex-wrap: wrap;
 				-webkit-flex-wrap: wrap;
-				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
 			}
 
@@ -2627,6 +2626,7 @@ footer a:hover {
 
 #navbar-corporate a.active {
 	color: #CDD53E;
+	color: #000000;
 	font-weight: bold;
 }
 
@@ -2739,13 +2739,8 @@ footer a:hover {
 		display: -ms-flexbox;
 		-ms-flex-wrap: wrap;
 		-ms-flex-pack: justify;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
-		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -2887,7 +2882,6 @@ footer a:hover {
 			padding: 0;
 			text-align: center;
 			border-top: 1px solid rgba(255, 255, 255, 0.25);
-			padding: 2em 10em;
 		}
 .copyright {
 	background: #CDD53E;
@@ -2945,3 +2939,5 @@ footer a:hover {
 				}
 
 		}
+
+.lora {background: #C5E0EF;}
