@@ -1673,7 +1673,7 @@ h1,h3 {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #727a82;
+		color: #2F5CDA;
 		font-weight: 700;
 		font-family: "Montserrat", sans-serif;
 		line-height: 1.5;
@@ -1796,7 +1796,7 @@ h1,h3 {
 	}
 
 	header p {
-		color: #00000;
+		color: #FFFFFF;
 		margin: 0 0 1.5em 0;
 	}
 
@@ -2652,14 +2652,6 @@ h1,h3 {
 		padding-top: 0em;
 	}
 
-	/* Changing the background colour for the header */
-
-header {
-	background-color: #000060;
-}
-
-/* Changing the background color for the navigation bar */
-
 .navbar {
 	background-color: #FFFCF3;
 }
@@ -2673,7 +2665,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #C5E0EF;
 	font-weight: bold;
 }
 
@@ -2986,3 +2978,5 @@ footer a:hover {
 				}
 
 		}
+
+
