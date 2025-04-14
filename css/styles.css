@@ -13,6 +13,7 @@ body {
 	font-weight: 400;
   	font-style: normal;
 	font-size: 21px;
+	
 }
 body {
 		-webkit-text-size-adjust: none;
@@ -28,7 +29,10 @@ body {
 			-ms-transition: none !important;
 			transition: none !important;
 }
-	
+		body {
+		padding-top: 150px; /* Adjust based on how tall your navbar is */
+}
+
 	.inner {
 		margin: 0 auto;
 		max-width: 65em;
@@ -49,6 +53,7 @@ h1,h3 {
 
 	blockquote, q {
 		quotes: none;
+		color:#2F5CDA;
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -1586,48 +1591,7 @@ h1,h3 {
 			}
 
 		}
-
-/* Type */
-
-		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
+/*What does this do*/
 
 	a {
 		color: #C5E0EF;
@@ -1655,18 +1619,8 @@ h1,h3 {
 
 		
 
-	sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
-
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
-
+	
+/*User quote*/
 	blockquote {
 		font-style: italic;
 		margin: 0 0 2em 0;
@@ -1682,6 +1636,7 @@ h1,h3 {
 
 		cite.company {
 			font-size: .8em;
+			color:#2F5CDA;
 		}
 
 	figure {
@@ -1720,37 +1675,10 @@ h1,h3 {
 	}
 
 /* Section/Article */
-
 	section.special, article.special {
 		text-align: center;
 	}
 
-	header p {
-		color: #FFFFFF;
-		margin: 0 0 1.5em 0;
-	}
-
-	header h1 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-	}
-
-	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-	}
-
-	header h3 + p {
-		font-size: 1.1em;
-		margin-top: -0.8em;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9em;
-		margin-top: -0.6em;
-	}
 
 /* Form */
 
@@ -2511,11 +2439,11 @@ h1,h3 {
 
 /* Wrapper */
 
-	.wrapper {
+.wrapper {
 		padding: 6em 0 4em 0;
 	}
 
-		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
+	.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
 			color: #2F5CDA;
 		}
 
@@ -2524,7 +2452,7 @@ h1,h3 {
 			color: #fcdcd6;
 		}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
+.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
 				color: #fff;
 			}
 
@@ -2548,17 +2476,10 @@ h1,h3 {
 
 		}
 
-/* Header */
 
-	body {
-		padding-top: 150px; /* Adjust based on how tall your navbar is */
-}
 
-	/* Changing the background colour for the header */
 
-header {
-	background-color: #000060;
-}
+
 
 /* Changing the background color for the navigation bar and adding a shadow */
 
@@ -2581,7 +2502,6 @@ footer a:hover {
 }
 
 /* Banner */
-
 #banner {
 	display: flex;
 	flex-direction: column;
@@ -2596,7 +2516,6 @@ footer a:hover {
 	position: relative;
 
 	}
-
 #banner .banner-inner {
 	padding-bottom: 10vh; 
 }
@@ -2609,15 +2528,14 @@ footer a:hover {
 	margin-bottom: 2rem;
 }
 
-		#banner .content {
+#banner .content {
 			-moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out, -webkit-transform 0.75s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out, -ms-transform 0.75s ease-in-out;
 			transition: opacity 1s ease-in-out, transform 0.75s ease-in-out;
 			opacity: 1;
 		}
-
-		#banner h1 {
+#banner h1 {
 			font-size: 3em;
 			color: #2F5CDA;
 			line-height: 1em;
@@ -2625,30 +2543,28 @@ footer a:hover {
 			padding: 0;
 		}
 
-		#banner p {
+#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
 		}
+ @media screen and (max-width: 1280px) {
 
-		@media screen and (max-width: 1280px) {
-
-			#banner {
+#banner {
 				padding: 12em 0 10em 0;
 			}
 
-		@media screen and (max-width: 980px) {
+ @media screen and (max-width: 980px) {
 
-			#banner {
-				padding: 8em 6em 6em 6em;
-			}
+#banner {
+			padding: 8em 6em 6em 6em;
+		}
 
-				#banner br {
-					display: none;
-				}
-
-				#banner h1 {
-					font-size: 2.25em;
-				}
+#banner br {
+			display: none;
+		   }
+#banner h1 {
+			font-size: 2.25em;
+		   }
 
 		}
 
