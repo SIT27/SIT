@@ -13,6 +13,7 @@ body {
 	font-weight: 400;
   	font-style: normal;
 	font-size: 21px;
+	
 }
 body {
 		-webkit-text-size-adjust: none;
@@ -28,7 +29,10 @@ body {
 			-ms-transition: none !important;
 			transition: none !important;
 }
-	
+		body {
+		padding-top: 150px; /* Adjust based on how tall your navbar is */
+}
+
 	.inner {
 		margin: 0 auto;
 		max-width: 65em;
@@ -2435,7 +2439,7 @@ h1,h3 {
 
 /* Wrapper */
 
-	.wrapper {
+.wrapper {
 		padding: 6em 0 4em 0;
 	}
 
@@ -2448,7 +2452,7 @@ h1,h3 {
 			color: #fcdcd6;
 		}
 
-			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
+.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
 				color: #fff;
 			}
 
@@ -2472,17 +2476,10 @@ h1,h3 {
 
 		}
 
-/* Header */
 
-	body {
-		padding-top: 150px; /* Adjust based on how tall your navbar is */
-}
 
-	/* Changing the background colour for the header */
 
-header {
-	background-color: #000060;
-}
+
 
 /* Changing the background color for the navigation bar and adding a shadow */
 
