@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
 
+/*Original css*/
 /* Changing the main font and background colour */
-
 body {
 	font-family: Fredoka, "Gill Sans";
 	background-color: #FFFCF3;
@@ -14,12 +14,31 @@ body {
   	font-style: normal;
 	font-size: 21px;
 }
+body {
+		-webkit-text-size-adjust: none;
+	}
 
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+}
+	
+	.inner {
+		margin: 0 auto;
+		max-width: 65em;
+	}
+/*foreign*/
 h1,h3 {
   font-family: Sigmar;
 }
 
-
+/*Check where this goes*/
 .image.fit img {
 	width: 100%;
 	height: auto;
@@ -42,9 +61,7 @@ h1,h3 {
 		border-spacing: 0;
 	}
 
-	body {
-		-webkit-text-size-adjust: none;
-	}
+	
 
 /* Box Model */
 
@@ -58,26 +75,21 @@ h1,h3 {
 
 	.container {
 		margin-left: auto;
-		margin-right: auto;
-	}
+		margin-right: auto;}
 
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
-		min-width: 80em;
-	}
+		min-width: 80em;}
 
 	.container.\37 5\25 {
-		width: 60em;
-	}
+		width: 60em;}
 
 	.container.\35 0\25 {
-		width: 40em;
-	}
+		width: 40em;}
 
 	.container.\32 5\25 {
-		width: 20em;
-	}
+		width: 20em;}
 
 	.container {
 		width: 80em;
@@ -1546,43 +1558,10 @@ h1,h3 {
 
 	}
 
-/* Basic */
 
-	@-ms-viewport {
-		width: device-width;
-	}
 
-	body {
-		-ms-overflow-style: scrollbar;
-	}
 
-	@media screen and (max-width: 480px) {
 
-		html, body {
-			min-width: 320px;
-		}
-
-	}
-
-	body {
-		background: #FFFCF3;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
-
-	.inner {
-		margin: 0 auto;
-		max-width: 65em;
-	}
 
 		@media screen and (max-width: 1280px) {
 
@@ -1672,43 +1651,9 @@ h1,h3 {
 		margin: 0 0 2em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
-		color: #2F5CDA;
-		font-weight: 700;
-		font-family: "Montserrat", sans-serif;
-		line-height: 1.5;
-		margin: 0 0 1em 0;
-	}
+	
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
-
-	h1 {
-		font-size: 2em;
-		line-height: 1.3;
-	}
-
-	h2 {
-		font-size: 1.75em;
-	}
-
-	h3 {
-		font-size: 1.25em;
-	}
-
-	h4 {
-		font-size: 1em;
-	}
-
-	h5 {
-		font-size: 0.9em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-	}
+		
 
 	sub {
 		font-size: 0.8em;
@@ -2937,6 +2882,8 @@ footer a:hover {
 				}
 
 		}
+/*Css styles done by Lora*/
+
 .info {
 	background: #C5E0EF;
 }
@@ -2945,3 +2892,6 @@ footer a:hover {
 background: #C5E0EF;
 	padding-left:1rem;
 }
+
+/*trying out something*/
+
