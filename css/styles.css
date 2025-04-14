@@ -2629,8 +2629,6 @@ footer a:hover {
 	color: #000000;
 	font-weight: bold;
 }
-
-
 /* Banner */
 
 	#banner {
@@ -2939,5 +2937,12 @@ footer a:hover {
 				}
 
 		}
+.info {
+	background: #C5E0EF;
+}
 
-.lora {background: #C5E0EF;}
+.lora {
+background: #C5E0EF;
+
+
+}
