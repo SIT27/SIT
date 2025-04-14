@@ -661,7 +661,7 @@ h1,h3 {
 		}
 
 		.\-6u\28xlarge\29 {
-			margin-left: 50%;
+			margin-left:50%;
 		}
 
 		.\-5u\28xlarge\29 {
@@ -2628,6 +2628,7 @@ footer a:hover {
 	color: #000000;
 	font-weight: bold;
 }
+
 /* Banner */
 
 	#banner {
@@ -2942,5 +2943,5 @@ footer a:hover {
 
 .lora {
 background: #C5E0EF;
-
+	padding-left:1rem;
 }
