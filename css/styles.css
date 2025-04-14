@@ -2509,8 +2509,13 @@ h1,h3 {
 		-ms-flex-wrap: nowrap;
 		-ms-flex-pack: justify;
 		-ms-flex-align: stretch;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		-moz-flex-wrap: nowrap;
 		-webkit-flex-wrap: nowrap;
+		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -2541,6 +2546,7 @@ h1,h3 {
 				-ms-flex-wrap: wrap;
 				-moz-flex-wrap: wrap;
 				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
 			}
 
@@ -2631,19 +2637,32 @@ footer a:hover {
 
 /* Banner */
 
-	#banner {
-		padding: 26em 0 6em 0;
-		background-image: url('.../images/dogs/anna-dudkova-urs_y9NwFcc-unsplash.jpg');
-		background-size: cover;
-		background-position: center top;
-		background-repeat: no-repeat;
-		text-align: center;
+#banner {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	padding: 0 2em;
+	background-size: cover;
+	background-position: center top;
+	background-repeat: no-repeat;
+	text-align: center;
+	position: relative;
+
+	}
+
+#banner .banner-inner {
+	padding-bottom: 10vh; 
 }
 
-	#banner .text-block {
- 		margin-bottom: 2rem; /* Moves text up */
+#banner .text-block {
+ 	margin-bottom: 2rem; /* Moves text up */
 }
 
+#banner .button {
+	margin-bottom: 2rem;
+}
 
 		#banner .content {
 			-moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;
@@ -2651,7 +2670,6 @@ footer a:hover {
 			-ms-transition: opacity 1s ease-in-out, -ms-transform 0.75s ease-in-out;
 			transition: opacity 1s ease-in-out, transform 0.75s ease-in-out;
 			opacity: 1;
-			margin-top: -24em;
 		}
 
 		#banner h1 {
@@ -2672,8 +2690,6 @@ footer a:hover {
 			#banner {
 				padding: 12em 0 10em 0;
 			}
-
-		}
 
 		@media screen and (max-width: 980px) {
 
@@ -2737,6 +2753,9 @@ footer a:hover {
 		display: -ms-flexbox;
 		-ms-flex-wrap: wrap;
 		-ms-flex-pack: justify;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
@@ -2880,6 +2899,7 @@ footer a:hover {
 			padding: 0;
 			text-align: center;
 			border-top: 1px solid rgba(255, 255, 255, 0.25);
+			padding: 2em 10em;
 		}
 .copyright {
 	background: #CDD53E;
