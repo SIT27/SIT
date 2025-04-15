@@ -2495,11 +2495,17 @@ footer a:hover {
 }
 
 /* Corporate navbar */
+.lora{
+	background-color:#C5E0EF; 
+}
 #navbar-corporate a.active {
 	color: #CDD53E;
-	color: #000000;
+	color: #FF752B;
 	font-weight: bold;
 }
+
+	
+  
 
 /* Banner */
 #banner {
@@ -2818,16 +2824,13 @@ footer a:hover {
 				}
 
 		}
-/*Css styles done by Lora*/
+
 
 .info {
 	background: #C5E0EF;
 }
 
-.lora {
-background: #C5E0EF;
-	padding-left:1rem;
-}
+	 
+          
 
-/*trying out something*/
 
