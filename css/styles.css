@@ -1591,48 +1591,6 @@ h1,h3 {
 			}
 
 		}
-/* Type */
-
-		@media screen and (max-width: 1680px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 1280px) {
-
-			body, input, select, textarea {
-				font-size: 11pt;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
-		@media screen and (max-width: 480px) {
-
-			body, input, select, textarea {
-				font-size: 12pt;
-			}
-
-		}
-
 /*What does this do*/
 
 	a {
@@ -1656,17 +1614,7 @@ h1,h3 {
 	p {
 		margin: 0 0 2em 0;
 	}
-sub {
-		font-size: 0.8em;
-		position: relative;
-		top: 0.5em;
-	}
 
-	sup {
-		font-size: 0.8em;
-		position: relative;
-		top: -0.5em;
-	}
 	
 
 		
@@ -1726,32 +1674,6 @@ sub {
 		text-align: right;
 	}
 
-header p {
-		color: #FFFFFF;
-		margin: 0 0 1.5em 0;
-	}
-
-	header h1 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-	}
-
-	header h2 + p {
-		font-size: 1.25em;
-		margin-top: -1em;
-	}
-
-	header h3 + p {
-		font-size: 1.1em;
-		margin-top: -0.8em;
-	}
-
-	header h4 + p,
-	header h5 + p,
-	header h6 + p {
-		font-size: 0.9em;
-		margin-top: -0.6em;
-	}
 /* Section/Article */
 	section.special, article.special {
 		text-align: center;
@@ -2547,22 +2469,13 @@ header p {
 		}
 
 		@media screen and (max-width: 480px) {
+
 			.wrapper {
 				padding: 2em 0 0.1em 0;
 			}
 
 		}
-/* Header */
 
-	body {
-		padding-top: 150px; /* Adjust based on how tall your navbar is */
-}
-
-	/* Changing the background colour for the header */
-
-header {
-	background-color: #000060;
-}
 
 
 
@@ -2635,11 +2548,7 @@ footer a:hover {
 			margin: 0 0 0.5em 0;
 			padding: 0;
 		}
-@media screen and (max-width: 980px) {
 
-			#banner {
-				padding: 8em 6em 6em 6em;
-			}
 #banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
@@ -2656,9 +2565,6 @@ footer a:hover {
 			padding: 8em 6em 6em 6em;
 		}
 
-				#banner h1 {
-					font-size: 2.25em;
-				}
 #banner br {
 			display: none;
 		   }
