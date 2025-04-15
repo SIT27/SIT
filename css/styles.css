@@ -2560,14 +2560,6 @@ header p {
 
 	/* Changing the background colour for the header */
 
-header {
-	background-color: #000060;
-}
-
-
-
-
-
 /* Changing the background color for the navigation bar and adding a shadow */
 
 .navbar {
@@ -2924,10 +2916,7 @@ footer a:hover {
 	background: #C5E0EF;
 }
 
-	 
-          
-
-
+	
 /*CSS style done by maartje*/
 .card-img-fixed {
 	height: 200px; /* adjust as needed */
