@@ -19,19 +19,6 @@ h1,h3 {
   font-family: "Sigmar";
 }
 
-.flex {
-  display: -ms-flexbox;
-  -ms-flex-wrap: nowrap;
-  -ms-flex-pack: justify;
-  -ms-flex-align: stretch;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: stretch;
-}
 
 .image.fit img {
 	width: 100%;
@@ -2518,6 +2505,20 @@ h1,h3 {
 
 /* Flex */
 
+.flex {
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
 	.flex {
 		display: -ms-flexbox;
 		-ms-flex-wrap: nowrap;
@@ -2646,6 +2647,20 @@ footer a:hover {
 
 
 /* Banner */
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 2em;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
+}
+
 
 	#banner {
 		padding: 26em 0 6em 0;
