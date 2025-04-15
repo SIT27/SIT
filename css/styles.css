@@ -19,6 +19,19 @@ h1,h3 {
   font-family: "Sigmar";
 }
 
+.flex {
+  display: -ms-flexbox;
+  -ms-flex-wrap: nowrap;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
 
 .image.fit img {
 	width: 100%;
@@ -215,7 +228,7 @@ h1,h3 {
 
 /* Grid */
 
-	.row {
+	.frow {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
