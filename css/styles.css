@@ -2758,6 +2758,16 @@ color:#fffcf3;
   background-color: #C5E0EF;     /* Light blue */
   padding: 4rem 2rem;            /* Spacing around the cards */
 }
+	/*Css styles done by Lora*/
+
+.info {
+	background: #C5E0EF;
+}
+
+.lora {
+background: #C5E0EF;
+	padding-left:1rem;
+}
 /* Footer */
 
 	#footer {
@@ -2850,13 +2860,5 @@ color:#fffcf3;
 				}
 
 
-/*Css styles done by Lora*/
 
-.info {
-	background: #C5E0EF;
-}
-
-.lora {
-background: #C5E0EF;
-	padding-left:1rem;
-}
+			
