@@ -2223,7 +2223,7 @@ h1,h3 {
   background-position: left 1em center;
   background-size: 1.5em;
 
-  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 }
 
 .button:hover {
@@ -2304,48 +2304,63 @@ h1,h3 {
 
 		}
 
-/* Wrapper */
+/* Cards */
 
-.wrapper {
-		padding: 6em 0 4em 0;
-	}
+.card {
+  border: none;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-color: #fefefe;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-	.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
-			color: #2F5CDA;
-		}
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
 
-		.wrapper.style1 {
-			background: #C5E0EF;
-			color: #fcdcd6;
-		}
+.card img {
+  height: 200px;
+  object-fit: cover;
+  width: 100%;
+}
 
-.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
-				color: #fff;
-			}
+.card-body {
+  padding: 1.5rem;
+}
 
-			.wrapper.style1 cite.author {
-				color: #fff;
-			}
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #141417;
+  margin-bottom: 0.75rem;
+}
 
-		@media screen and (max-width: 980px) {
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
 
-			.wrapper {
-				padding: 3em 0 1em 0;
-			}
+.card-footer {
+  background: transparent;
+  border-top: none;
+  padding: 1rem 1.5rem;
+}
 
-		}
+.btn-primary {
+  background-color: #141417;
+  border: none;
+  border-radius: 0.75rem;
+  padding: 0.5rem 1.25rem;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
 
-		@media screen and (max-width: 480px) {
-
-			.wrapper {
-				padding: 2em 0 0.1em 0;
-			}
-
-		}
-
-
-
-
+.btn-primary:hover {
+  background-color: #198754; /* Bootstrap green */
+}
 
 
 /* Changing the background color for the navigation bar and adding a shadow */
