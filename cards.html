@@ -13,7 +13,7 @@
     <!-- Bootstrap Javascript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
-    <title>PRJ4 Base Group Template &mdash; Cards UX</title>
+    <title>SIT - a fresh start</title>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -23,10 +23,10 @@
   <body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="images/2gether-transparent.png" width="40" alt="Breda University of Applied Sciences">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logos/logo.png" width="180" alt="Main Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,28 +34,29 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="example.html">Example</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
+              <a class="nav-link active" aria-current="page" href="index.html">
+                <img src="images/icons/paw.png" width="20" alt="paw" class="nav-icon"> Home
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="hero.html">Hero Section</a></li>
-                <li><a class="dropdown-item" href="carousel.html">Carousel</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="two-columns.html">Two-column Layout</a></li>
-                <li><a class="dropdown-item active" aria-current="page" href="cards.html">Cards</a></li>
-              </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://buas-media-interactive.github.io/prj4-guide/" target="_blank">PRJ4 Guide</a>
+              <a class="nav-link active" aria-current="page" href="cards.html">
+                <img src="images/icons/paw.png" width="20" alt="paw" class="nav-icon"> Library
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="corporate.html">Corporate</a>
+              <a class="nav-link active" aria-current="page" href="example.html">
+                <img src="images/icons/paw.png"  width="20" alt="paw" class="nav-icon"> About Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="corporate.html">
+                <img src="images/icons/paw.png"  width="20" alt="paw" class="nav-icon"> Corporate
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">
+                <img src="images/icons/paw.png"  width="20" alt="paw" class="nav-icon"> Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -63,17 +64,6 @@
     </nav>
     <!-- End of navigation bar -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>This is an example that uses two features of Bootstrap:</p>
-        <ul>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/layout/grid/" target="_blank">The responsive grid</a>
-          </li>
-          <li>
-            <a href="https://getbootstrap.com/docs/5.1/components/card/" target="_blank">Cards</a>
-          </li>
-        </ul>
       </div>
     </section>
 
@@ -87,13 +77,13 @@
         <!-- Card #1 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/thumbnails/3-sit-down.jpg" alt="woman teaching dog how to sit">
             <div class="card-body">
-              <h5 class="card-title">Card #1</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Sit and stay</h5>
+              <p class="card-text">Teaching your dog how to sit is one of the most valueble tricks to learn. Our trainer Isa gives helps you strat this journey of training in this video.</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Watch now</a>
             </div>
           </div>
         </div>
@@ -101,13 +91,13 @@
         <!-- Card #2 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/thumbnails/3-leash-pulling.jpg" alt="dog pulling leach very hard">
             <div class="card-body">
-              <h5 class="card-title">Card #2</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <h5 class="card-title">Stop leach pulling</h5>
+              <p class="card-text">Leach pulling can be a problem with big dogs. With this video, our trainer Kyle explains how to graduatly fix this problem whithout punishing your dog</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Watch now</a>
             </div>
           </div>
         </div>
@@ -115,13 +105,13 @@
         <!-- Card #3 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid" src="images/thumbnails/3-barking-strangers.jpeg" alt="closeup of dog barking">
             <div class="card-body">
-              <h5 class="card-title">Card #3</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Barking at strangers</h5>
+              <p class="card-text">A dog that barks is not just unpleasant, but it can also have a deeper meaning, like pain, discomfort, fear and many more. In this video, our trainer Maartje explains how you can understand your dogs needs and stop barking</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Watch now</a>
             </div>
           </div>
         </div>
@@ -129,13 +119,13 @@
         <!-- Card #4 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid blurred-image" src="images/thumbnails/sep-anxiety-2.jpg" alt="dog looking out of the window">
             <div class="card-body">
-              <h5 class="card-title">Card #4</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <h5 class="card-title">Dealing with seperation anxiety</h5>
+              <p class="card-text">You don't have access yet. Sign up now and get unlimited acces to our library!</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Sign up!</a>
             </div>
           </div>
         </div>
@@ -143,13 +133,13 @@
         <!-- Card #5 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid blurred-image" src="images/thumbnails/agression-public.jpg" alt="dog lunging to someone while on a leash">
             <div class="card-body">
-              <h5 class="card-title">Card #5</h5>
-              <p class="card-text">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo.</p>
+              <h5 class="card-title">Agression in public</h5>
+              <p class="card-text">You don't have access yet. Sign up now and get unlimited acces to our library!</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Sign up!</a>
             </div>
           </div>
         </div>
@@ -157,13 +147,13 @@
         <!-- Card #6 -->
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="card shadow h-100">
-            <img class="img-fluid" src="images/placeholder.png" alt="Placeholder Image">
+            <img class="img-fluid blurred-image" src="images/thumbnails/jumping-up-orange.jpg" alt="dog jumping up on person">
             <div class="card-body">
-              <h5 class="card-title">Card #6</h5>
-              <p class="card-text">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum.</p>
+              <h5 class="card-title">Jumping up againts people</h5>
+              <p class="card-text">You don't have access yet. Sign up now and get unlimited acces to our library!</p>
             </div>
             <div class="card-footer p-2 text-end">
-              <a href="#" class="btn btn-primary">Learn more</a>
+              <a href="#" class="btn btn-primary">Sign up!</a>
             </div>
           </div>
         </div>
