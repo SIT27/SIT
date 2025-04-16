@@ -4,8 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Luckiest+Guy&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sigmar&display=swap');
 
-/*Original css*/
 /* Changing the main font and background colour */
+
 body {
 	font-family: Fredoka, "Gill Sans";
 	background-color: #FFFCF3;
@@ -13,36 +13,13 @@ body {
 	font-weight: 400;
   	font-style: normal;
 	font-size: 21px;
-	
-}
-body {
-		-webkit-text-size-adjust: none;
-	}
-
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-}
-		body {
-		padding-top: 150px; /* Adjust based on how tall your navbar is */
 }
 
-	.inner {
-		margin: 0 auto;
-		max-width: 65em;
-	}
-/*foreign*/
 h1,h3 {
-  font-family: Sigmar;
+  font-family: "Sigmar";
 }
 
-/*Check where this goes*/
+
 .image.fit img {
 	width: 100%;
 	height: auto;
@@ -53,7 +30,6 @@ h1,h3 {
 
 	blockquote, q {
 		quotes: none;
-		color:#2F5CDA;
 	}
 
 	blockquote:before, blockquote:after, q:before, q:after {
@@ -66,7 +42,9 @@ h1,h3 {
 		border-spacing: 0;
 	}
 
-	
+	body {
+		-webkit-text-size-adjust: none;
+	}
 
 /* Box Model */
 
@@ -80,21 +58,26 @@ h1,h3 {
 
 	.container {
 		margin-left: auto;
-		margin-right: auto;}
+		margin-right: auto;
+	}
 
 	.container.\31 25\25 {
 		width: 100%;
 		max-width: 100em;
-		min-width: 80em;}
+		min-width: 80em;
+	}
 
 	.container.\37 5\25 {
-		width: 60em;}
+		width: 60em;
+	}
 
 	.container.\35 0\25 {
-		width: 40em;}
+		width: 40em;
+	}
 
 	.container.\32 5\25 {
-		width: 20em;}
+		width: 20em;
+	}
 
 	.container {
 		width: 80em;
@@ -232,7 +215,7 @@ h1,h3 {
 
 /* Grid */
 
-	.row {
+	.frow {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
@@ -274,6 +257,7 @@ h1,h3 {
 	}
 
 	.row.uniform.\30 \25 {
+
 		margin: 0em 0 -1px 0em;
 	}
 
@@ -678,7 +662,7 @@ h1,h3 {
 		}
 
 		.\-6u\28xlarge\29 {
-			margin-left:50%;
+			margin-left: 50%;
 		}
 
 		.\-5u\28xlarge\29 {
@@ -1563,10 +1547,43 @@ h1,h3 {
 
 	}
 
+/* Basic */
 
+	@-ms-viewport {
+		width: device-width;
+	}
 
+	body {
+		-ms-overflow-style: scrollbar;
+	}
 
+	@media screen and (max-width: 480px) {
 
+		html, body {
+			min-width: 320px;
+		}
+
+	}
+
+	body {
+		background: #FFFCF3;
+	}
+
+		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
+			-moz-animation: none !important;
+			-webkit-animation: none !important;
+			-ms-animation: none !important;
+			animation: none !important;
+			-moz-transition: none !important;
+			-webkit-transition: none !important;
+			-ms-transition: none !important;
+			transition: none !important;
+		}
+
+	.inner {
+		margin: 0 auto;
+		max-width: 65em;
+	}
 
 		@media screen and (max-width: 1280px) {
 
@@ -1591,7 +1608,48 @@ h1,h3 {
 			}
 
 		}
-/*What does this do*/
+
+/* Type */
+
+		@media screen and (max-width: 1680px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 1280px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+		}
 
 	a {
 		color: #C5E0EF;
@@ -1615,12 +1673,56 @@ h1,h3 {
 		margin: 0 0 2em 0;
 	}
 
-	
+	h1, h2, h3, h4, h5, h6 {
+		color: #2F5CDA;
+		font-weight: 700;
+		font-family: "Sigmar", sans-serif;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+	}
 
-		
+		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+			color: inherit;
+			text-decoration: none;
+		}
 
-	
-/*User quote*/
+	h1 {
+		font-size: 2em;
+		line-height: 1.3;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	h4 {
+		font-size: 1em;
+	}
+
+	h5 {
+		font-size: 0.9em;
+	}
+
+	h6 {
+		font-size: 0.7em;
+	}
+
+	sub {
+		font-size: 0.8em;
+		position: relative;
+		top: 0.5em;
+	}
+
+	sup {
+		font-size: 0.8em;
+		position: relative;
+		top: -0.5em;
+	}
+
 	blockquote {
 		font-style: italic;
 		margin: 0 0 2em 0;
@@ -1636,7 +1738,6 @@ h1,h3 {
 
 		cite.company {
 			font-size: .8em;
-			color:#2F5CDA;
 		}
 
 	figure {
@@ -1675,10 +1776,37 @@ h1,h3 {
 	}
 
 /* Section/Article */
+
 	section.special, article.special {
 		text-align: center;
 	}
 
+	header p {
+		color: #FFFFFF;
+		margin: 0 0 1.5em 0;
+	}
+
+	header h1 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+	}
+
+	header h2 + p {
+		font-size: 1.25em;
+		margin-top: -1em;
+	}
+
+	header h3 + p {
+		font-size: 1.1em;
+		margin-top: -0.8em;
+	}
+
+	header h4 + p,
+	header h5 + p,
+	header h6 + p {
+		font-size: 0.9em;
+		margin-top: -0.6em;
+	}
 
 /* Form */
 
@@ -2377,18 +2505,27 @@ h1,h3 {
 
 /* Flex */
 
+.flex {
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-pack: justify;
+  -ms-flex-align: stretch;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
 	.flex {
 		display: -ms-flexbox;
 		-ms-flex-wrap: nowrap;
 		-ms-flex-pack: justify;
 		-ms-flex-align: stretch;
-		display: -moz-flex;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
 		-moz-flex-wrap: nowrap;
 		-webkit-flex-wrap: nowrap;
-		-ms-flex-wrap: nowrap;
 		flex-wrap: nowrap;
 		-moz-justify-content: space-between;
 		-webkit-justify-content: space-between;
@@ -2419,7 +2556,6 @@ h1,h3 {
 				-ms-flex-wrap: wrap;
 				-moz-flex-wrap: wrap;
 				-webkit-flex-wrap: wrap;
-				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
 			}
 
@@ -2439,11 +2575,11 @@ h1,h3 {
 
 /* Wrapper */
 
-.wrapper {
+	.wrapper {
 		padding: 6em 0 4em 0;
 	}
 
-	.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
+		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
 			color: #2F5CDA;
 		}
 
@@ -2452,7 +2588,7 @@ h1,h3 {
 			color: #fcdcd6;
 		}
 
-.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
+			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5 {
 				color: #fff;
 			}
 
@@ -2476,10 +2612,17 @@ h1,h3 {
 
 		}
 
+/* Header */
 
+	body {
+		padding-top: 150px; /* Adjust based on how tall your navbar is */
+}
 
+	/* Changing the background colour for the header */
 
-
+header {
+	background-color: #C5E0EF;
+}
 
 /* Changing the background color for the navigation bar and adding a shadow */
 
@@ -2495,47 +2638,54 @@ footer a:hover {
 }
 
 /* Corporate navbar */
+
 #navbar-corporate a.active {
 	color: #CDD53E;
 	color: #000000;
 	font-weight: bold;
 }
 
+
 /* Banner */
 #banner {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	padding: 0 2em;
-	background-size: cover;
-	background-position: center top;
-	background-repeat: no-repeat;
-	text-align: center;
-	position: relative;
-
-	}
-#banner .banner-inner {
-	padding-bottom: 10vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 2em;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  position: relative;
 }
 
-#banner .text-block {
- 	margin-bottom: 2rem; /* Moves text up */
+
+	#banner {
+		padding: 26em 0 6em 0;
+		background-image: url('.../images/dogs/anna-dudkova-urs_y9NwFcc-unsplash.jpg');
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+		text-align: center;
 }
 
-#banner .button {
-	margin-bottom: 2rem;
+	#banner .text-block {
+ 		margin-bottom: 2rem; /* Moves text up */
 }
 
-#banner .content {
+
+		#banner .content {
 			-moz-transition: opacity 1s ease-in-out, -moz-transform 0.75s ease-in-out;
 			-webkit-transition: opacity 1s ease-in-out, -webkit-transform 0.75s ease-in-out;
 			-ms-transition: opacity 1s ease-in-out, -ms-transform 0.75s ease-in-out;
 			transition: opacity 1s ease-in-out, transform 0.75s ease-in-out;
 			opacity: 1;
+			margin-top: -24em;
 		}
-#banner h1 {
+
+		#banner h1 {
 			font-size: 3em;
 			color: #2F5CDA;
 			line-height: 1em;
@@ -2543,28 +2693,32 @@ footer a:hover {
 			padding: 0;
 		}
 
-#banner p {
+		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
 		}
- @media screen and (max-width: 1280px) {
 
-#banner {
+		@media screen and (max-width: 1280px) {
+
+			#banner {
 				padding: 12em 0 10em 0;
 			}
 
- @media screen and (max-width: 980px) {
-
-#banner {
-			padding: 8em 6em 6em 6em;
 		}
 
-#banner br {
-			display: none;
-		   }
-#banner h1 {
-			font-size: 2.25em;
-		   }
+		@media screen and (max-width: 980px) {
+
+			#banner {
+				padding: 8em 6em 6em 6em;
+			}
+
+				#banner br {
+					display: none;
+				}
+
+				#banner h1 {
+					font-size: 2.25em;
+				}
 
 		}
 
@@ -2614,9 +2768,6 @@ footer a:hover {
 		display: -ms-flexbox;
 		-ms-flex-wrap: wrap;
 		-ms-flex-pack: justify;
-		display: -webkit-flex;
-		display: -ms-flex;
-		display: flex;
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		flex-wrap: wrap;
@@ -2760,7 +2911,6 @@ footer a:hover {
 			padding: 0;
 			text-align: center;
 			border-top: 1px solid rgba(255, 255, 255, 0.25);
-			padding: 2em 10em;
 		}
 .copyright {
 	background: #CDD53E;
@@ -2818,66 +2968,6 @@ footer a:hover {
 				}
 
 		}
-/*Css styles done by Lora*/
-
-.info {
-	background: #C5E0EF;
-}
-
-.lora {
-background: #C5E0EF;
-	padding-left:1rem;
-}
-
-<<<<<<< HEAD
-/*trying out something*/
-=======
-/*trying out something*/
-
-/*CSS style done by maartje*/
-.card-img-fixed {
-	height: 200px; /* adjust as needed */
-	object-fit: cover;
-	width: 100%;
-  }
-  
-  /* Custom SIT Brand Colors for buttons down on the about us page */
-.bg-sit-orange {
-	background-color: #FF752B !important;
-	border-color: #FF752B !important;
-  }
-  
-  .bg-sit-blue {
-	background-color: #2F5CDA !important;
-	border-color: #2F5CDA !important;
-  }
-  
-  .bg-sit-lime {
-	background-color: #CDD53E !important;
-	border-color: #CDD53E !important;
-  }
-  
-  .bg-sit-sky {
-	background-color: #C5E0EF !important;
-	border-color: #C5E0EF !important;
-  }
-  
-  /* Optional: Unified box style */
-  .sit-value-box {
-	border-width: 1px;
-	border-style: solid;
-	border-radius: 1.5rem;
-	padding: 1.5rem 0;
-	font-size: 1.25rem;
-	text-align: center;
-  }
-
-  .text-buttons {
-	color: #FFFCF3 !important;
-  }
-  
->>>>>>> 6ff0c6fcb10b0a38c645e4b1ceb4181d4eb5eac1
-
 
 .lora {background: #C5E0EF;}
 	
