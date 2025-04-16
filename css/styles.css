@@ -2332,7 +2332,7 @@ h1,h3 {
 .card-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #141417;
+  color: #2f5cda;
   margin-bottom: 0.75rem;
 }
 
@@ -2349,17 +2349,17 @@ h1,h3 {
 }
 
 .btn-primary {
-  background-color: #141417;
+  background-color: #ff752b;
   border: none;
   border-radius: 0.75rem;
   padding: 0.5rem 1.25rem;
   font-weight: 500;
   font-size: 1rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.2s ease;
 }
 
 .btn-primary:hover {
-  background-color: #198754; /* Bootstrap green */
+  background-color: #cdd53e;
 }
 
 
@@ -2368,6 +2368,21 @@ h1,h3 {
 .navbar {
   background-color: #FFFCF3;
   box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login {
+ background-color: #ff752b;
+ color: white;
+ padding: 0.8rem 1.50rem;
+ border-radius: 0.5rem;
+ border: none;
+ transition: background-color 0.3s ease;
+ font-weight: 500;
+}
+
+.btn-login:hover {
+  background-color: #cdd53e; /* Darker green on hover */
+  color: white;
 }
 
 /* Effect on social media buttons */
