@@ -2209,11 +2209,7 @@ h1,h3 {
 	input[type="reset"],
 	input[type="button"],
 	button,
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
+	.bone-button {
 		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -2246,7 +2242,7 @@ h1,h3 {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: #FF752B;
+			background-color: #CDD53E;
 		}
 
 		input[type="submit"].icon,
@@ -2323,31 +2319,6 @@ h1,h3 {
 			button.alt.icon:before,
 			.button.alt.icon:before {
 				color: #bbb;
-			}
-
-		input[type="submit"].special,
-		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
-			background-color: #25a2c3;
-			color: #ffffff !important;
-		}
-
-			input[type="submit"].special:hover,
-			input[type="reset"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
-				background-color: #2bb3d7;
-			}
-
-			input[type="submit"].special:active,
-			input[type="reset"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
-				background-color: #2190ae;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
