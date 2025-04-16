@@ -2745,18 +2745,20 @@ footer a:hover {
   .sit-blue {
   background-color: #2F5CDA !important;
   border-color: #2F5CDA !important;
-  color: white !important; /* Makes the text white for better contrast */
+color:#fffcf3;
 }
 
   
   .bg-sit-lime {
 	background-color: #CDD53E !important;
 	border-color: #CDD53E !important;
+	 color:#fffcf3;
   }
   
   .bg-sit-sky {
 	background-color: #C5E0EF !important;
 	border-color: #C5E0EF !important;
+	color:#fffcf3;  
   }
   
   /* Optional: Unified box style */
@@ -2773,10 +2775,18 @@ footer a:hover {
 	color: #FFFCF3 !important;
   }
 	  /* change background color of about us page */
-  .about-us-bg {
-background-color:#C5E0EF;
-  }
-		
+.about-us-section {
+  background-color: #C5E0EF;
+  max-width: 1140px;       /* or whatever fits your layout */
+  margin: 0 auto;
+  padding: 5rem 1rem;       /* top/bottom 3rem, sides 1rem */
+  text-align: justyfi;
+  border-radius: 1rem;  /* optional: soft rounded corners */
+}
+		.about-us-bg {
+  background-color: #C5E0EF;     /* Light blue */
+  padding: 4rem 2rem;            /* Spacing around the cards */
+}
 /* Footer */
 
 	#footer {
