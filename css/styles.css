@@ -71,14 +71,12 @@ h1,h3 {
 
 	
 
-/* Box Model */
-
-	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
-		box-sizing: border-box;
-	}
-
+/* Carousel */
+.carousel-slide img {
+  max-height: 600px;
+  width: auto;
+  margin: 0 auto; /* centers the image horizontally */
+}
 /* Containers */
 
 	.container {
@@ -1597,7 +1595,7 @@ h1,h3 {
 /*What does this do*/
 
 	a {
-		color: #C5E0EF;
+		color: #CDD53E;
 		text-decoration: underline;
 	}
 
@@ -2495,11 +2493,11 @@ footer a:hover {
 }
 
 #banner .text-block {
- 	margin-bottom: 2rem; /* Moves text up */
+ 	margin-bottom: 10rem; /* Moves text up */
 }
 
 #banner .button {
-	margin-bottom: 2rem;
+	margin-bottom: 10rem;
 }
 
 #banner .content {
@@ -2757,6 +2755,9 @@ color:#fffcf3;
 		.about-us-bg {
   background-color: #C5E0EF;     /* Light blue */
   padding: 4rem 2rem;            /* Spacing around the cards */
+}
+	 .blurred-image {
+  filter: blur(5px);
 }
 	/*Css styles done by Lora*/
 
