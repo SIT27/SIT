@@ -2493,11 +2493,11 @@ footer a:hover {
 }
 
 #banner .text-block {
- 	margin-bottom: 2rem; /* Moves text up */
+ 	margin-bottom: 10rem; /* Moves text up */
 }
 
 #banner .button {
-	margin-bottom: 2rem;
+	margin-bottom: 10rem;
 }
 
 #banner .content {
@@ -2755,6 +2755,9 @@ color:#fffcf3;
 		.about-us-bg {
   background-color: #C5E0EF;     /* Light blue */
   padding: 4rem 2rem;            /* Spacing around the cards */
+}
+	 .blurred-image {
+  filter: blur(5px);
 }
 	/*Css styles done by Lora*/
 
