@@ -34,7 +34,7 @@ body {
 }
 .info {
 	background: #C5E0EF;
-	color:#2F5CDA;
+	
 }
 	.inner {
 		margin: 0 auto;
@@ -42,8 +42,9 @@ body {
 	}
 
 /*foreign*/
-h1,h3 {
+h1,h2,h3 {
   font-family: "Sigmar";
+	color:#2F5CDA;
 }
 
 /*Check where this goes*/
