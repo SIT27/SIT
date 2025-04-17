@@ -70,30 +70,36 @@
   </div>
 </nav>
 	  
-    <!-- End of navigation bar -->
+    <!-- Start of contact section -->
 
-    <section class="container my-4">
-      <div class="border-start border-primary border-5 p-2 bg-primary bg-opacity-10 rounded">
-        <p>You can use this hero section to focus the reader's attention on a few words and calls to action.</p>
-        <p>This is inspired by <a href="https://getbootstrap.com/docs/5.1/examples/album/" target="_blank">Bootstrap's Album example</a>.</p>
-      </div>
-    </section>
+  <div class="container">
+  <div class="top-contact">
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>Phone: <a href="tel:+1234567890">+1 234 567 890</a></p>
+    <div class="socials">
+      <a href="https://instagram.com" target="_blank">Instagram</a>
+      <a href="https://facebook.com" target="_blank">Facebook</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+    </div>
+  </div>
 
-    <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto py-5">
-          <h1 class="display-3">Hero section</h1>
-          <p class="lead">A short and snappy tagline that makes your reader want to read things from your website.</p>
-          <p class="mt-5">
-            <a href="#" class="btn btn-lg btn-warning m-1 d-block d-sm-inline">Call to action</a>
-            <a href="#" class="btn btn-lg btn-danger m-1 d-block d-sm-inline">Another call to action</a>
-          </p>
-        </div>
-      </div>
-    </header>
-    <!-- End of hero section -->
+  <form action="#" method="post">
+    <label for="name">Your Name</label>
+    <input type="text" id="name" name="name" required />
 
+    <label for="email">Your Email</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="message">Your Message</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+
+    <button type="submit">Send Message</button>
+  </form>
+</div>
+	  
+	<!-- End of contact section -->
+
+	  
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body">
       <div class="container d-flex justify-content-between align-items-center">
