@@ -34,6 +34,7 @@ body {
 }
 .info {
 	background: #C5E0EF;
+	color:#2F5CDA;
 }
 	.inner {
 		margin: 0 auto;
@@ -2207,12 +2208,11 @@ h1,h3 {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-
   height: 3.5em;
   padding: 0 3.5em;
-
   background-color: #FF752B;
   color: #ffffff;
+  font-weight: 500;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -2373,8 +2373,8 @@ h1,h3 {
 .btn-login {
  background-color: #ff752b;
  color: white;
- padding: 0.8rem 1.50rem;
- border-radius: 0.5rem;
+ padding: 0.8rem 1.80rem;
+ border-radius: 0.75rem;
  border: none;
  transition: background-color 0.3s ease;
  font-weight: 500;
@@ -2441,7 +2441,7 @@ footer a:hover {
 	background-color: #FF752B;
 	color: #fff;
 	border: none;
-	border-radius: 4px;
+	border-radius: 0.75rem;
 	text-transform: uppercase;
 	cursor: pointer;
 	text-decoration: none;
