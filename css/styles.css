@@ -2667,6 +2667,77 @@ color:#fffcf3;
 background: #C5E0EF;
 	padding-left:1rem;
 }
+
+/*Contact page*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.top-contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.top-contact p {
+  margin: 5px 0;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #555;
+}
+
+.socials a:hover {
+  color: #000;
+}
+
+form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+
 /* Footer */
 
 	#footer {
@@ -2756,8 +2827,6 @@ background: #C5E0EF;
 
 				#footer .copyright {
 					padding: 2em 0;
-				}
-
-
-
+			}
+}
 			
