@@ -46,7 +46,9 @@ h1,h2,h3 {
   font-family: "Sigmar";
 	color:#2F5CDA;
 }
-
+h4{
+	color:#FF752B;
+}
 /*Check where this goes*/
 .image.fit img {
 	width: 100%;
