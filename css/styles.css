@@ -2576,6 +2576,11 @@ body.is-loading #banner .content {
 	width: 100%;
   }
   
+  .text-block {
+	max-width: 800px;          /* keeps it from stretching too much */
+  }
+  
+
   /* Custom SIT Brand Colors for buttons down on the about us page */
 .bg-sit-orange {
 	background-color: #FF752B !important;
